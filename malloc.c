@@ -15,4 +15,4 @@ int main()
 
     int* m = (int*) calloc(5,sizeof(int));
     printf("the uninit number of m is %d\n",*m);// not garbage valuef
-}
+} 
