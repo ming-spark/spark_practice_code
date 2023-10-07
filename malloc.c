@@ -11,7 +11,6 @@ int main()
     printf("the address of p is %d\n",p+3);
     *p = 1;
     printf("the address of p is %d\n",*p);
-    
 
     int* m = (int*) calloc(5,sizeof(int));
     printf("the uninit number of m is %d\n",*m);// not garbage valuef
